@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btn_hello_world.setOnClickListener {
-            Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Test Upsource", Toast.LENGTH_SHORT).show()
         }
     }
 }
